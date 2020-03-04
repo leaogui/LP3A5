@@ -1,10 +1,10 @@
-package ex1;
+package ex;
 
 import java.util.ArrayList;
 
 public class Teste implements Runnable{
-
-	ArrayList<Double> raiz = new ArrayList<Double>();
+	
+ArrayList<Double> raiz = new ArrayList<Double>();
 	
 	@Override
 	public void run() {
@@ -41,4 +41,5 @@ public class Teste implements Runnable{
 
 		}
 	}
+
 }
